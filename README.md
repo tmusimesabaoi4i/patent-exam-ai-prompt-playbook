@@ -1,2 +1,94 @@
-# patent-exam-ai-prompt-playbook
-A curated collection of practical AI prompts for patent examination workflows, including prior art analysis, specification understanding, office action review, amendment support, translation, and technical explanation using NotebookLM, GitHub Copilot, and ChatGPT.
+# Patent Exam AI Prompt Playbook
+
+> AI prompt templates designed specifically for patent examination and prosecution workflows.
+
+このリポジトリは、NotebookLM、GitHub Copilot、ChatGPTを用いて、  
+**特許審査、引用文献読解、拒絶理由分析、補正方針検討、技術説明整理**を支援するためのプロンプト集です。
+
+---
+
+## 目的
+
+本リポジトリの目的は、AIツールを活用して、特許審査実務や中間対応実務における文書理解・論点整理・翻訳・説明作成を効率化することです。
+
+主に、以下のような作業を支援することを想定しています。
+
+- 明細書・請求項・図面の内容理解
+- 発明の中核的構成、課題、効果の整理
+- 引用文献の要点把握
+- 拒絶理由通知の論理構成の整理
+- 補正書・意見書の検討補助
+- 技術内容の平易な説明
+- 日本語・英語の翻訳や表現調整
+- 出願経過や比較観点の時系列整理
+
+このリポジトリは、**一般的なAIプロンプト集ではなく、特許審査・特許実務への利用を主眼とした実務用プロンプト集**です。
+
+---
+
+## 想定する利用場面
+
+以下のような場面での利用を想定しています。
+
+- 本願発明の技術的ポイントを整理したい
+- 明細書から課題・作用・効果を抽出したい
+- 引用文献との対比観点を洗い出したい
+- 拒絶理由通知の要点や論理構成を整理したい
+- 補正後クレームで拒絶理由が解消したかを確認したい
+- 長文の技術資料や特許文献を短時間で把握したい
+- 審査実務向けに説明文や比較表のたたき台を作りたい
+- 英文明細書や外国文献の翻訳・要約を行いたい
+
+---
+
+## 対象AIツール
+
+### NotebookLM
+文書ベースでの理解・説明に適したツールとして使用します。
+
+主な用途:
+- 明細書や拒絶理由通知の要約
+- 出願経過の時系列整理
+- 動画向け解説原稿の作成
+- 発明のポイント、課題、効果の説明
+- 補正前後の論点整理
+
+### GitHub Copilot
+翻訳、文章整形、コメント生成、簡易説明補助などに使用します。
+
+主な用途:
+- 技術文の翻訳補助
+- コードやテキスト処理用スクリプトの補助
+- 定型文や説明文の整形
+- 文書構造の整理補助
+
+### ChatGPT
+対話的に論点を詰めたり、比較・整理・説明を行うために使用します。
+
+主な用途:
+- 本願発明の説明
+- 引用文献との比較整理
+- 拒絶理由の要点整理
+- 補正方針や意見書観点の検討補助
+- 技術内容の平易化
+- 表形式での論点整理
+
+---
+
+## ディレクトリ構成
+
+```text
+.
+├─ notebooklm/
+│  └─ video_script.md
+├─ copilot/
+│  ├─ 
+│  ├─ 
+│  └─ 
+├─ chatgpt/
+│  ├─ 
+│  ├─ 
+│  ├─ 
+│  ├─ 
+│  └─ 
+└─ README.md
